@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --fpnt-display: "Poppins" , "sans-serif";
+    --breakpoint-3xl: 1920px;
+    --color-primary: #4f46e5;
+    --color-secondary: #f97316;
+}
+@layer base {
+    html{
+        font-family: var(--font-display);
+    }
+}
+body{
+    background-color: #fcfbfc;
+    overflow-x: hidden;
+}
